@@ -7,7 +7,7 @@ function Rectangle2(){
 
     return (
     
-    <div className='Rectangle1' style={{
+    <div className='Rectangle' style={{
         position: 'absolute', left: '50%',
         transform: 'translate(-50%, 25%)'
     }}>

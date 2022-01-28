@@ -63,7 +63,7 @@ function ButtonClick(){
       print?
       <div>
 {/* This part (FetchData) is not working */}
-    {FetchData(url)}
+    {/* {FetchData(url)} */}
 
       <p className="Result">{"The url entered is: "+url}</p>
       </div>

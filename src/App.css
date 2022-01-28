@@ -1,0 +1,171 @@
+@import '~antd/dist/antd.css';
+
+.Body{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 546px;
+    margin: 0px;
+
+    background: rgba(100, 150, 245, 0.05);
+}
+
+
+
+h1{
+    position: absolute;
+    width: 543px;
+    height: 142px;
+    left: 190px;
+    top: 130px;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 94px;
+    text-align: right;
+
+    color: #293553;
+}
+
+h2{
+    position: absolute;
+    width: 543px;
+    height: 142px;
+    left: 190px;
+    top: 215px;
+
+    font-family: 'Ubuntu', sans-serif;
+        font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 94px;
+    text-align: right;
+
+color: #293553; 
+}
+
+.input{
+    position: absolute;
+    width:1000px;
+    height: 60px;
+    left: 214px;
+    top: 350px;
+
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-indent: 15px;
+    background: #ECECEC;
+    border-radius: 15px;
+    border-color: #ECECEC;
+}
+
+.Result{
+    position: absolute;
+    width: 1000px;
+    left: 234px;
+    top: 450px;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.button{
+    position: absolute;
+    width: 173px;
+    height: 60px;
+    left: 1300px;
+    top: 350px;
+    transition-duration: 0.4s;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    background: #ECECEC;
+    border-radius: 15px;
+    border-width: 0px;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: rgb(172, 172, 172);
+}
+
+
+
+.Rectangle{
+    width: 247px;
+    height: 300px;
+
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.AftersellFont{
+    position: relative;
+    width: 218px;
+    height: 51px;
+    top: 210px;
+    
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 15px;
+
+    text-align: center;
+    
+    color: #637381;
+}
+
+.OutsellFont{
+    position: relative;
+    width: 218px;
+    height: 51px;
+    top: 210px;
+    
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 15px;
+
+    text-align: center;
+    
+    color: #637381;
+}
+
+.BottomBlack{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    left: 0px;
+    top: 470px;
+
+    background: #293553;
+}
+
+.BottomText{
+    position: absolute;
+    width: 299px;
+    height: 20px;
+    left: 40px;
+    top: 1030px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
