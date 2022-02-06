@@ -49,13 +49,22 @@ function FetchData(theurl) {
 function ButtonClick(){
   const [url,setUrl] = useState(null);
   const [print,setPrint] = useState(false);
+  const [theme, setTheme] = useState(" asd");
 
   function getUrl(val){
     setUrl(val.target.value)
     setPrint(false)
-
   }
-  
+
+  async function fetchTheme() {
+
+    await fetch(`https://us-central1-get-theme.cloudfunctions.net/getTheme?myshopify=${url}`)
+    .then(response => response.text())
+    .then(data => setTheme(data));
+
+    console.log(theme);
+    setPrint(true);
+  }
 
   return (
     <div>
@@ -65,13 +74,13 @@ function ButtonClick(){
 {/* This part (FetchData) is not working */}
     {/* {FetchData(url)} */}
 
-      <p className="Result">{"The url entered is: "+url}</p>
+      <p className="Result">{"The url entered is: "+ theme}</p>
       </div>
       :null
     }
     <Input className = "input" placeholder="Enter URL: " onChange={getUrl}/> 
 
-    <button class="button" onClick={()=>setPrint(true)}>Detect</button>
+    <button class="button" onClick={fetchTheme}>Detect</button>
 
     </div>
   )
